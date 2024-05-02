@@ -171,13 +171,13 @@
     text-align: start;
   }
   .logout-button {
-    background-color: #ff6961; /* red color */
-    color: #ffffff; /* white text color */
+    background-color: #ffffff; /* red color */
+    color: #00007a; /* white text color */
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     margin-top: 40px;
     margin-left: 40px;

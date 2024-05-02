@@ -125,7 +125,7 @@ const Navbar = () => {
           </li>
         </ul>
         <button className="logout-button">
-          logout
+          Log Out
         </button>
       </div>
     </>

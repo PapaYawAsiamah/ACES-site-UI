@@ -14,6 +14,9 @@
   top: 20%;
  left: 50%;
 }
+.course{
+  margin-top: 20px;
+}
 .course img{
   border-radius: 50%;
   border: 1px solid #00007a; /* makes the image round */
@@ -32,28 +35,36 @@ margin-left: 50px;
 .course-Container{
   display: flex;
   flex-direction: row;
- top: 20%;
- left: 50%;
+ /* top: 20%;
+ left: 50%; */
  transform: translate(-50%, -50%);
  position: absolute;
+ margin-top: 15%;
 }
 @media (max-width: 768px) {
   .Heading{
     margin-top: 3%;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 20%;
-   left: 50%;
+    /* top: 20%;
+   left: 50%; */
   }
   .course-Container{
     position: absolute;
     display: flex;
-    flex-direction: column;
-    top: 90%;
+    flex-direction: row;
+    top: 40%;
  left: 50%;
   }
   .course{
     margin-top: 50px;
+  }
+  .course h2{
+    text-align: center;
+    font-size: clamp(1rem, 2vw, 0.5rem);
+  }
+  .course img{
+    margin-left: 30px;
   }
 }
 /* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2) {
@@ -82,8 +93,8 @@ margin-left: 50px;
 @media (max-width: 375px) {
   .course-Container{
     display: flex;
-    flex-direction: column;
-    top: 110%;
+    flex-direction: row;
+    top: 60%;
  left: 50%;
  transform: translate(-50%, -50%);
  position: absolute;
