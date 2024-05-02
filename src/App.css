@@ -82,9 +82,16 @@ margin-left: 50px;
   .course-Container{
     display: flex;
     flex-direction: column;
-    top: 90%;
+    top: 100%;
  left: 50%;
  transform: translate(-50%, -50%);
+  }
+  .Heading{
+    margin-top: 10%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 20%;
+   left: 50%;
   }
 }
 @media only screen and (min-width: 540px) and (max-width: 540px) {
