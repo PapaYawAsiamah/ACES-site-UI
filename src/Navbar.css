@@ -22,6 +22,7 @@
   margin-top: 20px;
   list-style-type: none;
   font-family: "Poppins", sans-serif;
+  
 }
 .mainLinks a {
   text-decoration: none;
@@ -164,6 +165,7 @@
 
   .sideLinks li {
     margin-top: 30px;
+    margin-right: 10px;
   }
   .sideLinks a {
     text-decoration: none;
