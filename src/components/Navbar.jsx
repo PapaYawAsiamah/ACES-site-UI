@@ -2,6 +2,7 @@ import React from "react";
 import "../Navbar.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
@@ -35,7 +36,9 @@ const Navbar = () => {
         <div>
           <ul className="mainLinks">
             <li>
-              <a href="#">Select Year🔻</a>
+              <div>
+              <a href="#">Select Year <ExpandMoreIcon/></a>
+              </div>
               <ul className="dropdown">
                 <li>
                   <a href="#">Year 1</a>
@@ -52,7 +55,7 @@ const Navbar = () => {
               </ul>
             </li>
             <li>
-              <a href="#">More Info🔻</a>
+              <a href="#">More Info <ExpandMoreIcon/></a>
               <ul className="dropdown">
                 <li>
                   <a href="#">Team</a>
@@ -66,7 +69,7 @@ const Navbar = () => {
               </ul>
             </li>
             <li>
-              <a href="#">User Instructions🔻</a>
+              <a href="#">User Instructions <ExpandMoreIcon/></a>
               {/* <ul className="dropdown">
             <li><a href="#">Web Development</a></li>
             <li><a href="#">Graphic Design</a></li>
@@ -85,7 +88,7 @@ const Navbar = () => {
 
         <ul className="sideLinks">
           <li>
-            <a href="#"  onClick={showYearDropDown }>🔻Select Year</a>
+            <a href="#"  onClick={showYearDropDown }><ExpandMoreIcon/>Select Year</a>
             <ul className={`sidedropdown ${showYearDrop ? "active" : ""}`}>
               <li>
                 <a href="#">Year 1</a>
@@ -102,7 +105,7 @@ const Navbar = () => {
             </ul>
           </li>
           <li>
-            <a href="#">🔻More Info</a>
+            <a href="#"><ExpandMoreIcon/>More Info</a>
             <ul className="dropdown">
               <li>
                 <a href="#">Team</a>
@@ -116,7 +119,7 @@ const Navbar = () => {
             </ul>
           </li>
           <li>
-            <a href="#">🔻User Instructions</a>
+            <a href="#"><ExpandMoreIcon/>User Instructions</a>
             {/* <ul className="dropdown">
             <li><a href="#">Web Development</a></li>
             <li><a href="#">Graphic Design</a></li>
