@@ -46,6 +46,7 @@ margin-left: 50px;
    left: 50%;
   }
   .course-Container{
+    position: absolute;
     display: flex;
     flex-direction: column;
     top: 75%;
@@ -74,7 +75,7 @@ margin-left: 50px;
     flex-direction: row;
     top: 50%;
  left: 50%;
- 
+ position: absolute;
   }
 }
 
@@ -85,6 +86,7 @@ margin-left: 50px;
     top: 110%;
  left: 50%;
  transform: translate(-50%, -50%);
+ position: absolute;
   }
   .Heading{
     margin-top: 10%;
